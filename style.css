@@ -1,0 +1,27 @@
+body{
+    background-image: url(img/road.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 240px;
+    background-size: cover;
+}
+.car{
+    position: absolute;
+    left: -510px;
+    top: 200px;
+    animation-name: car;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    overflow-y: hidden;
+    animation-delay: 2s;
+}
+@keyframes car {
+    from{
+        left: -550px;
+    }
+    to{
+        left: 100%;
+    }
+    
+}
